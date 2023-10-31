@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+
+  db:
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: pass
+      POSTGRES_DB: student
+    ports:
+      - 6922:5432
+
