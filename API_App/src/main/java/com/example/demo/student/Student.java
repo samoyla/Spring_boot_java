@@ -9,7 +9,6 @@ import jakarta.persistence.Table;
 import java.time.LocalDate;
 
 
-
 @Entity
 @Table(name = "student")
 public class Student {
